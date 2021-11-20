@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- site icon -->
+      <link rel="icon" href="images/fevicon.png" type="image/png" />
+      <!-- bootstrap css -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- site css -->
+      <link rel="stylesheet" href="style.css" />
+      <!-- responsive css -->
+      <link rel="stylesheet" href="css/responsive.css" />
+      <!-- color css -->
+      <link rel="stylesheet" href="css/colors.css" />
+      <!-- select bootstrap -->
+      <link rel="stylesheet" href="css/bootstrap-select.css" />
+      <!-- scrollbar css -->
+      <link rel="stylesheet" href="css/perfect-scrollbar.css" />
+      <!-- custom css -->
+      <link rel="stylesheet" href="css/custom.css" />
+      <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+   </head>
+   <body class="dashboard dashboard_1">
+      <div class="full_container">
+         <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+               <div class="sidebar_blog_1">
+                  <div class="sidebar-header">
+                     <div class="logo_section">
+                        <a href="index.html"><img class="logo_icon img-responsive" src="images/logo/logo_icon.png" alt="#" /></a>
+                     </div>
+                  </div>
+                  <div class="sidebar_user_info">
+                     <div class="icon_setting"></div>
+                     <div class="user_profle_side">
+                        <div class="user_img"><img class="img-responsive" src="images/layout_img/user_img.jpg" alt="#" /></div>
+                        <div class="user_info">
+                           <h6>ProductUP</h6>
+                           <p><span class="online_animation"></span></p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="sidebar_blog_2">
+                  <h4>General</h4>
+                  <ul class="list-unstyled components">
+                     <li class="active">
+                        <a href="#dashboard" data-toggle="collapse" aria-expanded="false" ><i class="fa fa-dashboard yellow_color"></i> <span>Dashboard sur les clients</span></a>
+                      
+                     </li>
+                     <li><a href="widgets.html"><i class="fa fa-clock-o orange_color"></i> <span>Veille Concurrentielle</span></a></li>
+                     
+                     <li>
+                        <a href="#agenda" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-object-group blue2_color"></i> <span>Agenda</span></a>
+                        <ul class="collapse list-unstyled" id="apps">
+                           <li><a href="email.html">> <span>Email</span></a></li>
+                           <li><a href="calendar.html">> <span>Calendar</span></a></li>
+                           <li><a href="media_gallery.html">> <span>Media Gallery</span></a></li>
+                        </ul>
+                     </li>
+                     <li>
+                        <a href="contact.html">
+                        <i class="fa fa-paper-plane red_color"></i> <span>Contact</span></a>
+                     </li>
+                     <li class="active">
+                        <a href="#additional_page" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"><i class="fa fa-clone yellow_color"></i> <span>Additional Pages</span></a>
+                        <ul class="collapse list-unstyled" id="additional_page">
+                           <li>
+                              <a href="profile.html">> <span>Profile</span></a>
+                           </li>
+                           <li>
+                              <a href="project.html">> <span>Projects</span></a>
+                           </li>
+                           <li>
+                              <a href="login.html">> <span>Login</span></a>
+                           </li>
+                           <li>
+                              <a href="404_error.html">> <span>404 Error</span></a>
+                           </li>
+                        </ul>
+                     </li>
+                    
+                     <li><a href="settings.html"><i class="fa fa-cog yellow_color"></i> <span>Paramètres</span></a></li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+               <!-- topbar -->
+               <div class="topbar">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="full">
+                        <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
+                        <div class="logo_section">
+                           
+                        </div>
+                        <div class="right_topbar">
+                           <div class="icon_info">
+                              <ul>
+                                 <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">2</span></a></li>
+                                 <li><a href="#"><i class="fa fa-question-circle"></i></a></li>
+                                 <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">3</span></a></li>
+                              </ul>
+                              <ul class="user_profile_dd">
+                                 <li>
+                                    <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user">John David</span></a>
+                                    <div class="dropdown-menu">
+                                       <a class="dropdown-item" href="profile.html">My Profile</a>
+                                       <a class="dropdown-item" href="settings.html">Settings</a>
+                                       <a class="dropdown-item" href="help.html">Help</a>
+                                       <a class="dropdown-item" href="#"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+               <!-- end topbar -->
+               <!-- dashboard inner -->
+               <div class="midde_cont">
+                  <div class="container-fluid">
+                     <div class="row column_title">
+                        <div class="col-md-12">
+                           <div class="page_title">
+                              <h2>Dashboard</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row column1">
+                        <div class="col-md-6 col-lg-4">
+                           <div class="full counter_section margin_bottom_30">
+                              <div class="couter_icon">
+                                 <div> 
+                                    <i class="fa fa-smile-o red_color"></i>
+                                 </div>
+                              </div>
+                              <div class="counter_no">
+                                 <div>
+                                    <p class="total_no">59%</p>
+                                    <p class="head_couter">Clients satisfaits</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                           <div class="full counter_section margin_bottom_30">
+                              <div class="couter_icon">
+                                 <div> 
+                                    <i class="fa fa-frown-o blue1_color"></i>
+                                 </div>
+                              </div>
+                              <div class="counter_no">
+                                 <div>
+                                    <p class="total_no">25%</p>
+                                    <p class="head_couter">Clients non satisfaits</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                           <div class="full counter_section margin_bottom_30">
+                              <div class="couter_icon">
+                                 <div> 
+                                    <i class="fa fa-star-o yellow_color"></i>
+                                 </div>
+                              </div>
+                              <div class="counter_no">
+                                 <div>
+                                    <p class="total_no">Le Produit</p>
+                                    <p class="head_couter">STAR</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                      
+                     </div>
+                     <div class="row column1 social_media_section">
+                        <div class="col-md-5 col-lg-3">
+                           <div class="full socile_icons fb margin_bottom_30">
+                              <div class="social_icon">
+                                 <i class="fa fa-facebook"></i>
+                              </div>
+                              <div class="social_cont">
+                                 <ul>
+                                    <li>
+                                       <span><strong>35k</strong></span>
+                                       <span>Nombre d'abonnées</span>
+                                    </li>
+                                    <li>
+                                       <span><strong>128k</strong></span>
+                                       <span>commentaires</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3">
+                           <div class="full socile_icons tw margin_bottom_30">
+                              <div class="social_icon">
+                                 <i class="fa fa-twitter"></i>
+                              </div>
+                              <div class="social_cont">
+                                 <ul>
+                                    <li>
+                                       <span><strong>584k</strong></span>
+                                       <span>Followers</span>
+                                    </li>
+                                    <li>
+                                       <span><strong>978</strong></span>
+                                       <span>Tweets</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3">
+                           <div class="full socile_icons linked margin_bottom_30">
+                              <div class="social_icon">
+                                 <i class="fa fa-linkedin"></i>
+                              </div>
+                              <div class="social_cont">
+                                 <ul>
+                                    <li>
+                                       <span><strong>758+</strong></span>
+                                       <span>Contacts</span>
+                                    </li>
+                                    <li>
+                                       <span><strong>365</strong></span>
+                                       <span>commentaires</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-md-5 col-lg-3">
+                           <div class="full socile_icons google_p margin_bottom_30">
+                              <div class="social_icon">
+                                 <i class="fa fa-instagram"></i>
+                              </div>
+                              <div class="social_cont">
+                                 <ul>
+                                    <li>
+                                       <span><strong>450</strong></span>
+                                       <span>Followers</span>
+                                    </li>
+                                    <li>
+                                       <span><strong>57k</strong></span>
+                                       <span>Commentaires</span>
+                                    </li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <!-- row -->
+                     <div class="row column1">
+                        <div class="col-md-6 col-lg-30"  h>
+                           <div class="white_shd full margin_bottom_30">
+                              <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h2>Evolution de la satisfaction client sur le produit STAR</h2>
+                                 </div>
+                              </div>
+                              <div class="map_section padding_infor_info">
+                                 <canvas id="line_chart"></canvas>
+                              </div>
+                           </div>
+                        </div>
+                      <!-- progress bar -->
+                        <div class="col-md-6">
+                           <div class="white_shd full margin_bottom_30">
+                              <div class="full graph_head">
+                                 <div class="heading1 margin_0">
+                                    <h2>Réclamations de nos clients sur les réseaux sociaux</h2>
+                                 </div>
+                              </div>
+                              <div class="full progress_bar_inner">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="progress_bar">
+                                          <!-- Skill Bars -->
+                                          <span class="skill" style="width:73%;">Réclamations sur les prix<span class="info_valume">73%</span></span>                  
+                                          <div class="progress skill-bar ">
+                                             <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="73" aria-valuemin="0" aria-valuemax="100" style="width: 73%;">
+                                             </div>
+                                          </div>
+                                          <span class="skill" style="width:62%;">Réclamations sur la qualité des produits<span class="info_valume">62%</span></span>   
+                                          <div class="progress skill-bar">
+                                             <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" style="width: 62%;">
+                                             </div>
+                                          </div>
+                                          <span class="skill" style="width:54%;">Réclamations sur les beugs des produits <span class="info_valume">54%</span></span>
+                                          <div class="progress skill-bar">
+                                             <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="54" aria-valuemin="0" aria-valuemax="100" style="width: 54%;">
+                                             </div>
+                                          </div>
+                                          <span class="skill" style="width:33%;">Réclamations sur le Design de produits <span class="info_valume">33%</span></span>
+                                          <div class="progress skill-bar">
+                                             <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 33%;">
+                                             </div>
+                                          </div>
+                                          <span class="skill" style="width:28%;">Réclamations sur la disponibilité <span class="info_valume">28%</span></span>
+                                          <div class="progress skill-bar">
+                                             <div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="28" aria-valuemin="0" aria-valuemax="100" style="width: 8%;">
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- end progress bar -->      
+                     <!-- graph -->
+                    
+                     <!-- end graph -->
+                    
+                     <div class="col-md-12">
+                        <div class="white_shd full margin_bottom_30">
+                           <div class="full graph_head">
+                              <div class="heading1 margin_0">
+                                 <h2>Table des produits</h2>
+                              </div>
+                           </div>
+                           <div class="table_section padding_infor_info">
+                              <div class="table-responsive-sm">
+                                 <table class="table">
+                                    <thead>
+                                       <tr>
+                                          <th>#</th>
+                                          <th>Produit</th>
+                                          <th>Ref</th>
+                                          <th>Taux de ventes</th>
+                                          <th>Avis positifs</th>
+                                          <th>Avis négatifs</th>
+                                          <th>Concurrent</th>
+                                          <th>Service après vente</th>
+                                          <th>Remarque importante</th>
+                                          
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>P1</td>
+                                          <td>35499</td>
+                                          <td>88%</td>
+                                          <td>1900</td>
+                                          <td>300</td>
+                                          <td>NON</td>
+                                          <td>R</td>
+                                          <td>NON</td>
+                                    
+                                       </tr>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>P1</td>
+                                          <td>35499</td>
+                                          <td>88%</td>
+                                          <td>1900</td>
+                                          <td>300</td>
+                                          <td>NON</td>
+                                          <td>R</td>
+                                          <td>NON</td>
+                                    
+                                       </tr>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>P1</td>
+                                          <td>35499</td>
+                                          <td>88%</td>
+                                          <td>1900</td>
+                                          <td>300</td>
+                                          <td>NON</td>
+                                          <td>R</td>
+                                          <td>NON</td>
+                                    
+                                       </tr>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>P1</td>
+                                          <td>35499</td>
+                                          <td>88%</td>
+                                          <td>1900</td>
+                                          <td>300</td>
+                                          <td>NON</td>
+                                          <td>R</td>
+                                          <td>NON</td>
+                                    
+                                       </tr>
+                                       <tr>
+                                          <td>1</td>
+                                          <td>P1</td>
+                                          <td>35499</td>
+                                          <td>88%</td>
+                                          <td>1900</td>
+                                          <td>300</td>
+                                          <td>NON</td>
+                                          <td>R</td>
+                                          <td>NON</td>
+                                    
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- footer -->
+                  <div class="container-fluid">
+                     <div class="footer">
+                        <p>Copyright © 2018 Designed by html.design. All rights reserved.<br><br>
+                           Distributed By: <a href="https://themewagon.com/">ThemeWagon</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!-- end dashboard inner -->
+            </div>
+         </div>
+      </div>
+      <!-- jQuery -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- wow animation -->
+      <script src="js/animate.js"></script>
+      <!-- select country -->
+      <script src="js/bootstrap-select.js"></script>
+      <!-- owl carousel -->
+      <script src="js/owl.carousel.js"></script> 
+      <!-- chart js -->
+      <script src="js/Chart.min.js"></script>
+      <script src="js/Chart.bundle.min.js"></script>
+      <script src="js/utils.js"></script>
+      <script src="js/analyser.js"></script>
+      <!-- nice scrollbar -->
+      <script src="js/perfect-scrollbar.min.js"></script>
+      <script>
+         var ps = new PerfectScrollbar('#sidebar');
+      </script>
+      <!-- custom js -->
+      <script src="js/chart_custom_style1.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
